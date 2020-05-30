@@ -94,7 +94,7 @@ var cursorMenuThrottle = 50
 var cursorActivityDebounce = 50
 var cursorAnimatePeriod = 100
 var supportContainers = ['success', 'info', 'warning', 'danger']
-var supportCodeModes = ['javascript', 'typescript', 'jsx', 'htmlmixed', 'htmlembedded', 'css', 'xml', 'clike', 'clojure', 'ruby', 'python', 'shell', 'php', 'sql', 'haskell', 'coffeescript', 'yaml', 'pug', 'lua', 'cmake', 'nginx', 'perl', 'sass', 'r', 'dockerfile', 'tiddlywiki', 'mediawiki', 'go', 'gherkin'].concat(hljs.listLanguages())
+var supportCodeModes = ['javascript', 'typescript', 'jsx', 'htmlmixed', 'htmlembedded', 'css', 'xml', 'clike', 'clojure', 'ruby', 'python', 'shell', 'php', 'sql', 'haskell', 'coffeescript', 'yaml', 'pug', 'lua', 'cmake', 'nginx', 'perl', 'sass', 'r', 'dockerfile', 'tiddlywiki', 'mediawiki', 'go', 'gherkin', 'arm'].concat(hljs.listLanguages())
 var supportCharts = ['sequence', 'flow', 'graphviz', 'mermaid', 'abc']
 var supportHeaders = [
   {
